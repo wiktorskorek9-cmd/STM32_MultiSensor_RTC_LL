@@ -10,7 +10,7 @@ A bare-metal, low-level data acquisition system built for the **STM32F4** platfo
 | **ADC1** | 12-Bit, Right-Aligned, 480 Cycles | Samples analog voltage from the LM35 sensor |
 | **TIM1** | Internal Clock Interrupt | General system timing base |
 | **TIM2** | Variable Auto-Reload Base | Delays microsecond intervals for 1-Wire and 3-Wire bit-banging |
-| **USART1** | 9600, 8N1, Polling / Async | Remote interface (e.g., Bluetooth transceiver) |
+| **USART1** | 9600, 8N1, Polling / Async | Remote interface (Bluetooth transceiver) |
 | **USART2** | 115200, 8N1, Rx Interrupt Mode | PC Terminal interface for live echoing and control |
 | **GPIOA (Pin 0)** | Dynamic In/Out | Bidirectional single-wire signaling for DHT11 |
 | **GPIOA (Pin 5)** | Digital Output | Status LED toggle pin controlled via serial interface |
