@@ -1,5 +1,5 @@
 # STM32_MultiSensor_RTC_LL
-# Low-Level Multi-Sensor Data Acquisition & RTC System (STM32-LL)
+# Low-Level MultiSensor Data Acquisition & RTC System (STM32-LL)
 
 A bare-metal, low level data acquisition system built for the **STM32F4** platform using the high-performance **STM32 LL (Low Level) Drivers**. The project demonstrates efficient firmware architecture by implementing custom software timed communication protocols (bit-banging), precise analog signal conversions, and a dual-interface UART command gateway.
 
